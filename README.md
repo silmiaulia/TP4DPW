@@ -1,5 +1,13 @@
 # Getting Started with Create React App
 
+> Silmi Aulia Rohmah (2000318) <br>
+> Ilmu Komputer - C1
+
+### Hasil 
+
+https://user-images.githubusercontent.com/99388988/163394984-545b5226-4303-45ab-a177-76a8dd2ed974.mp4
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
