@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+*, body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+}
+
+html, body {
+    height: 100%;
+    background-color: #152733;
+}
+
+
+.form-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.form-holder .form-content {
+    position: relative;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.form-content .form-items {
+    border: 3px solid #fff;
+    padding: 50px;
+    display: inline-block;
+    width: 100%;
+    min-width: 1000px;
+    text-align: left;
+    
+}
+
+.form-content h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+
+.form-content label{
+    color: #fff;
+}
+
+.form-content input[type=text], .form-content input[type=password], .form-content input[type=date], .form-content select, textarea {
+    width: 100%;
+    padding: 9px 20px;
+    text-align: left;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    margin: 20px 0 20px 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.btn-primary{
+    background-color: #898f92;
+    outline: none;
+    border: 0px;
+    box-shadow: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px 20px;
+}
+
+.btn-primary:hover{
+    background-color: #5c5e5f;
+    box-shadow: none;
+}
+
+.form{
+    margin: 20px 0;
+    color: white;
+}
+
+.Hobi .checkbox{
+    display: flex;
+    gap: 10px;
+}
+
+.lbl-keterangan{
+    margin-top: 20px;  
+    display: flex;
+    color: white;
+}
+
+.lbl-keterangan .Label{        
+    margin-right: 200px
+}
+
+hr.line{
+    margin-top: 0;
+    height: 5px;
+    border: none;
+    background-color: white;
+}
+
+.lbl{
+    color: white;
+    display: grid;
+    grid-template-columns: 246px auto;
+}
+
+.lbl .value{
+
+    text-align: left;
+}
+
+textarea{
+    height:200px;
+}
